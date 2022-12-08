@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightsalmon;
+}
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "main main main main";
+    /*"footer footer footer footer"*/
+}
+header{
+    grid-area: header;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #9E00FF;
+
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo h1{
+    font-size: 30px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.header-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-pesquisa img{
+    height: 30px;
+    width: 30px;
+}
+.barra-imput{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.barra-imput input{
+    height: 30px;
+    width: 300px;
+    border-radius: 24px;
+    border: none;
+}
+.barra-imput img{
+    left: -10px;
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    margin-right: 25px;
+    font-size: 30px;
+}
+#insta{
+    border-right: 1px solid black;
+    width: 45px;
+}
+#face{
+    border-right: 1px solid black;
+    width: 45px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+.header-nav nav{
+    width: 100%;
+}
+.header-nav nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-nav nav ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------------------------categoria---------------------------------------*/
+#imagem{
+    width: 80%;
+}
+#imagem img{
+    width: 100%;
+    height: 100%;
+}
+#titulo{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+#texto{
+    width: 90%;
+    color: aliceblue;
+}
+#texto p{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*----------------------------------loja-------------------------------------*/
+.header-loja{
+    border-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.linha-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-top: 10%;
+}
+.linha-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+}
+.header-loja h3{
+    font-size: 15px;
+    color: orangered;
+    
+}
+.header-loja h2{
+    color: orangered;
+    font-size: 30px;
+}
+.header-loja p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.header-loja button{
+    color: white;
+    background-color: orangered;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-loja button:hover{
+    cursor: pointer;
+}
+.catalogo-1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+.catalogo-2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+.catalogo-3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+.catalogo-4{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+.catalogo-5{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+.catalogo-6{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border: 2px solid black;
+    width: 300px;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.imagem-1{
+    background-image: url(-741349327.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:190px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-2{
+    background-image: url(console-sony-playstation-5-fifa-23_1663161809_gg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:250px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-3{
+    background-image: url(microfone-gamer-hyperx-quadcast-s-led-usb-preto-e-vermelho-hmiq1s-xx-rg-g_1602169933_gg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:250px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-4{
+    background-image: url(volante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-000111_1644503634_gg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:300px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-5{
+    background-image: url(cadeira-gamer-xt-racer-viking-series-ate-120kg-com-almofadas-e-apoio-de-pes-reclinavel-descanso-de-braco-3d-preto-xtr-018_1667316833_gg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:300px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-6{
+    background-image: url(monitor-gamer-husky-tempest-led-34-ultrawide-curvo-wqhd-hdmi-dp-144hz-1ms-freesync-som-integrado-hgmt005_1629996852_gg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height:300px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.finalloja{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+}
+/*-----------------------------------------------------------------------*/
+
+.destaques {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+}
+
+.destaques-texto {
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+}
+.destaques-texto h1{
+    margin-left: 20px;
+}
+.destaques-texto hr{
+    margin-right: 50%;
+}
+
+.destaques-main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-esquerdo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.esquerdo-um {
+    height: 45%;
+    width: 80%;
+    background-image: url(1668109322_535742_1668109417_noticia_normal.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.esquerdo-dois {
+    height: 45%;
+    width: 80%;
+    background-image: url(648799.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+    
+}
+
+.main-direito {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.direito-um {
+    height: 45%;
+    width: 80%;
+    background-image: url(steam-deck-the-game-awards.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.direito-dois {
+    height: 45%;
+    width: 80%;
+    background-image: url(171.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.background-cinza {
+    text-align: center;
+    background-color: #898989;
+    font-size: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.main-centro {
+    background-image: url(God-of-War-Ragnarok_nu9L303.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+.main-centro p{
+    background-color: #898989;
+    width: 100%;
+    text-align: center;
+}
+.last-times{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%; 
+}
+.last-text{
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+}
+.last-text h1{
+    margin-left: 20px;
+}
+.last-times hr{
+    margin-right: 50%;
+}
+.last_times{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+}
+.need{
+    display: flex;
+    margin: 10px;
+}
+.need-image{
+    background-image: url(need-for-speed-unbound-reveal-screenshot-5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    width: 475px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+ button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6990C;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.silent{
+    display: flex;
+    margin: 10px;
+}
+.silent-image{
+    background-image: url(konami.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.stadia{
+    display: flex;
+    margin: 10px;
+}
+.stadia-image{
+    background-image: url(2019-06-06-18-59-31-stadia-founders-edition-mach-dir-einen-namen-google-store.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    width: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: center;
+    font-size: 20px;
+}
+.text h3{
+    color: #F6990C;
+    display: flex;
+    width: 100%;
+}
+.text p{
+    color: aliceblue;
+    font-size: 19px;
+}
+.final{
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+}
+
+
+@media (max-width:900px){
+    .destaques-main{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    .main-esquerdo{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .main-centro{
+        height: 800px;
+        width: 90%;
+    }
+    .main-direito{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .esquerdo-dois{
+        height: 100%;
+        width: 40%;
+    }
+    .esquerdo-um{
+        height: 100%;
+        width: 40%;
+    }
+    .direito-um{
+        height: 100%;
+        width: 40%;
+    }
+    .direito-dois{
+        height: 100%;
+        width: 40%;
+    }
+
+
+}
+
+/*footer{
+    grid-area:footer;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+    width: 100%;
+    background-color:#9E00FF
+}
+.footer_top li{
+    list-style-type: none;
+    padding: 5px;
+}
+.footer_top h5{
+    font-size: 20px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:white;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.footer-nav p{
+    color: black;
+    margin-right: 5px;
+
+}*/
