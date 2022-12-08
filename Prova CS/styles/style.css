@@ -277,7 +277,7 @@ main{
 }
 
 .imagem-1{
-    background-image: url(-741349327.jpg);
+    background-image: url(../img/-741349327.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -289,7 +289,7 @@ main{
     justify-content: center;
 }
 .imagem-2{
-    background-image: url(console-sony-playstation-5-fifa-23_1663161809_gg.jpg);
+    background-image: url(../img/console-sony-playstation-5-fifa-23_1663161809_gg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -301,7 +301,7 @@ main{
     justify-content: center;
 }
 .imagem-3{
-    background-image: url(microfone-gamer-hyperx-quadcast-s-led-usb-preto-e-vermelho-hmiq1s-xx-rg-g_1602169933_gg.jpg);
+    background-image: url(../img/microfone-gamer-hyperx-quadcast-s-led-usb-preto-e-vermelho-hmiq1s-xx-rg-g_1602169933_gg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -313,7 +313,7 @@ main{
     justify-content: center;
 }
 .imagem-4{
-    background-image: url(volante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-000111_1644503634_gg.jpg);
+    background-image: url(../img/volante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-000111_1644503634_gg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -325,7 +325,7 @@ main{
     justify-content: center;
 }
 .imagem-5{
-    background-image: url(cadeira-gamer-xt-racer-viking-series-ate-120kg-com-almofadas-e-apoio-de-pes-reclinavel-descanso-de-braco-3d-preto-xtr-018_1667316833_gg.jpg);
+    background-image: url(../img/cadeira-gamer-xt-racer-viking-series-ate-120kg-com-almofadas-e-apoio-de-pes-reclinavel-descanso-de-braco-3d-preto-xtr-018_1667316833_gg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -337,7 +337,7 @@ main{
     justify-content: center;
 }
 .imagem-6{
-    background-image: url(monitor-gamer-husky-tempest-led-34-ultrawide-curvo-wqhd-hdmi-dp-144hz-1ms-freesync-som-integrado-hgmt005_1629996852_gg.jpg);
+    background-image: url(../img/monitor-gamer-husky-tempest-led-34-ultrawide-curvo-wqhd-hdmi-dp-144hz-1ms-freesync-som-integrado-hgmt005_1629996852_gg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -394,7 +394,7 @@ main{
 .esquerdo-um {
     height: 45%;
     width: 80%;
-    background-image: url(1668109322_535742_1668109417_noticia_normal.jpeg);
+    background-image: url(../img/1668109322_535742_1668109417_noticia_normal.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -408,7 +408,7 @@ main{
 .esquerdo-dois {
     height: 45%;
     width: 80%;
-    background-image: url(648799.jpeg);
+    background-image: url(../img/648799.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -433,7 +433,7 @@ main{
 .direito-um {
     height: 45%;
     width: 80%;
-    background-image: url(steam-deck-the-game-awards.webp);
+    background-image: url(../img/steam-deck-the-game-awards.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -447,7 +447,7 @@ main{
 .direito-dois {
     height: 45%;
     width: 80%;
-    background-image: url(171.jpg);
+    background-image: url(../img/171.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,7 +466,7 @@ main{
 }
 
 .main-centro {
-    background-image: url(God-of-War-Ragnarok_nu9L303.png);
+    background-image: url(../img/God-of-War-Ragnarok_nu9L303.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -510,7 +510,7 @@ main{
     margin: 10px;
 }
 .need-image{
-    background-image: url(need-for-speed-unbound-reveal-screenshot-5.webp);
+    background-image: url(../img/need-for-speed-unbound-reveal-screenshot-5.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -537,7 +537,7 @@ main{
     margin: 10px;
 }
 .silent-image{
-    background-image: url(konami.webp);
+    background-image: url(../img/konami.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,7 +553,7 @@ main{
     margin: 10px;
 }
 .stadia-image{
-    background-image: url(2019-06-06-18-59-31-stadia-founders-edition-mach-dir-einen-namen-google-store.webp);
+    background-image: url(../img/2019-06-06-18-59-31-stadia-founders-edition-mach-dir-einen-namen-google-store.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
